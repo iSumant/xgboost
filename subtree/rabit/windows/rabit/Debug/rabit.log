@@ -1,0 +1,18 @@
+﻿Build started 1/18/2016 1:59:35 AM.
+     1>Project "C:\Users\Sumant\Documents\GitHub\xgboost\subtree\rabit\windows\rabit\rabit.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\allreduce_base.cc ..\..\src\allreduce_robust.cc ..\..\src\engine.cc
+         engine.cc
+         allreduce_robust.cc
+         allreduce_base.cc
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Sumant\Documents\GitHub\xgboost\windows\Debug\rabit.lib" /NOLOGO Debug\allreduce_base.obj
+         Debug\allreduce_robust.obj
+         Debug\engine.obj
+         rabit.vcxproj -> C:\Users\Sumant\Documents\GitHub\xgboost\windows\Debug\rabit.lib
+     1>Done Building Project "C:\Users\Sumant\Documents\GitHub\xgboost\subtree\rabit\windows\rabit\rabit.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.42

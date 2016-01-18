@@ -1,0 +1,26 @@
+﻿Build started 1/18/2016 2:11:26 AM.
+     1>Project "C:\Users\Sumant\Documents\GitHub\xgboost\windows\xgboost\xgboost.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt ..\..\src\gbm\gbm.cpp ..\..\src\io\dmlc_simple.cpp ..\..\src\io\io.cpp ..\..\src\tree\updater.cpp ..\..\src\xgboost_main.cpp
+         gbm.cpp
+     1>c:\users\sumant\documents\github\xgboost\src\gbm\./gbtree-inl.hpp(390): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         dmlc_simple.cpp
+         io.cpp
+         updater.cpp
+         xgboost_main.cpp
+     1>CL : warning : lgamma function was not available until VS2013, poisson regression will be disabled
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sumant\Documents\GitHub\xgboost\windows\x64\Release\xgboost.exe" /NOLOGO C:\Users\Sumant\Documents\GitHub\xgboost\windows\x64\Release\\rabit.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sumant\Documents\GitHub\xgboost\windows\x64\Release\xgboost.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sumant\Documents\GitHub\xgboost\windows\x64\Release\xgboost.lib" /MACHINE:X64 x64\Release\gbm.obj
+         x64\Release\dmlc_simple.obj
+         x64\Release\io.obj
+         x64\Release\updater.obj
+         x64\Release\xgboost_main.obj
+         C:\Users\Sumant\Documents\GitHub\xgboost\windows\x64\Release\rabit.lib
+         Generating code
+         Finished generating code
+         xgboost.vcxproj -> C:\Users\Sumant\Documents\GitHub\xgboost\windows\x64\Release\xgboost.exe
+     1>Done Building Project "C:\Users\Sumant\Documents\GitHub\xgboost\windows\xgboost\xgboost.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.66
